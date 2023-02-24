@@ -61,7 +61,7 @@ const CreatePost = (props) => {
                             })}
                         </select>
                     </label>
-                    <input className={styles.post_form_input} placeholder='Вставте помилання картинки в форматі https://' id="imageLink" onChange={handlerValuesForState}></input>
+                    <input className={styles.post_form_input} placeholder='Вставте посилання картинки в форматі https://' id="imageLink" onChange={handlerValuesForState}></input>
                     <textarea className={styles.post_form_textarea} placeholder='Введіть коментар' id="descriptionText" onChange={handlerValuesForState} required></textarea>
                     <button type='text' className={styles.create_post_btn}>Створити публікацію</button>
                 </form>
